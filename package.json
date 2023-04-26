@@ -1,0 +1,27 @@
+{
+  "name": "npm-package",
+  "version": "1.0.0",
+  "description": "this is Documentation for Colorify Console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anurag-Dhurwey/Colorify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anurag-Dhurwey/Colorify/issues"
+  },
+  "homepage": "https://github.com/Anurag-Dhurwey/Colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": ["lib/**/*"]
+}
