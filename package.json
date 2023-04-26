@@ -1,5 +1,5 @@
 {
-  "name": "npm-package",
+  "name": "colorify-console-logs",
   "version": "1.0.0",
   "description": "this is Documentation for Colorify Console logs",
   "main": "lib/index.js",
